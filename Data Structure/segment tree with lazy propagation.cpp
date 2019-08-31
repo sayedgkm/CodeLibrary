@@ -45,7 +45,6 @@ void propagate(int node,int low,int hi)
         tree[right].lazy+=tree[node].lazy;
     }
     tree[node].lazy=0;
-    tree[node].lazy=0;
 }
 void update(int node,int low,int hi,int i,int j,int value)
 {
